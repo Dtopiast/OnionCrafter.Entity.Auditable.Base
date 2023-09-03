@@ -21,10 +21,20 @@
     <PackageIcon>JustLogo.png</PackageIcon>
     <RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.Entity.Auditable.Base</RepositoryUrl>
     <PackageTags>audit, entity, .net, framework, lightweight, access, creation, modification, interface, base class</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

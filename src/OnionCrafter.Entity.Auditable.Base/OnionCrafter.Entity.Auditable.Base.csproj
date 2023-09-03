@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <Description>Provides a lightweight .NET library for creating auditable entities, offering easy integration of access, creation, and modification audit capabilities into your applications. This library includes interfaces and base classes designed to simplify the implementation of auditing features in your .NET projects.</Description>
+	  <VersionPrefix>1.0.0</VersionPrefix>
+
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <IncludeSymbols>True</IncludeSymbols>
+	  <Copyright>Copyright 2023 Dtopiast</Copyright>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <AssemblyVersion>$(VersionPrefix)</AssemblyVersion>
+	  <FileVersion>$(VersionPrefix)</FileVersion>
+	  <Version>$(VersionPrefix)</Version>
+	  <Authors>Dtopiast</Authors>
+	  <RepositoryType>git</RepositoryType>
+	  
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>JustLogo.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Dtopiast/OnionCrafter.Entity.Auditable.Base</RepositoryUrl>
+    <PackageTags>audit, entity, .net, framework, lightweight, access, creation, modification, interface, base class</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Images\JustLogo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OnionCrafter.Entity.Base" Version="1.0.0" />
+    <PackageReference Include="OnionCrafter.Util.Object" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
